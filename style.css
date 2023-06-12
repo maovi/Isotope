@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  margin: 30px auto;
+}
+.portfolio-menu ul li:hover{
+  background:blueviolet;
+  color: #ffffff;
+  cursor: pointer;
+}
+.portfolio-item{
+  width: 100%;
+}
+.portfolio-item .item{
+  width: 303px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+img{ max-width: 290px;}
